@@ -1,4 +1,4 @@
-<div class="w-full py-5 px-5 shadow-xl navbar fixed top-0 left-0 backdrop-blur-md bg-[#fff1] z-[999999999999]">
+<div class="w-full py-5 px-5 shadow-xl navbar fixed top-0 left-0 backdrop-blur-md bg-[#fff5] z-[999999999999]">
     <div class="flex md:hidden justify-between items-center text-sm font-bold">
         <div class="font-bold">
             {{ env('APP_NAME')}}
@@ -14,8 +14,8 @@
     
     <div class="hidden md:block">
 
-        <div class="flex justify-around text-sm mb-5 items-center border-b-2 border-b-gray-600 py-4 sticky">
-            <div>
+        {{-- <div class="flex justify-around text-sm mb-5 items-center border-b-2 border-b-gray-600 py-4 sticky">
+            <div class="font-bold ">
                 +234898998989
             </div>
             <div class="flex justify-around items-center space-x-3">
@@ -37,7 +37,7 @@
                     </svg>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="flex flex-col md:flex-row justify-between">
             <div class="font-bold text-lg">
                 {{ env('APP_NAME') }}
@@ -55,7 +55,7 @@
             </div>
 
             <div>
-                <a href="/contact" class="rounded-lg bg-[#7bf7] px-4 py-2.5 text-white font-bold text-sm hover:text-black hover:bg-[#7bfa] shadow">
+                <a href="/contact" class="rounded-lg bg-[#154c82e0] px-4 py-2.5 text-white font-bold text-sm hover:text-black hover:bg-[#7bfa] shadow transition">
                     Reach Us
                 </a>
             </div>
@@ -81,7 +81,7 @@
                 width: 80%;
                 bottom: 0px;
                 left:10%;
-                background: rgb(13, 114, 187);
+                background: rgb(254, 255, 255);
                 content: '';
                 position: absolute;
                 animation-name: navanimation;

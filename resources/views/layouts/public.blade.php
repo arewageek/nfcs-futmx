@@ -19,11 +19,13 @@
         <!-- Styles -->
         @livewireStyles
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" />
     </head>
     <body class="font-sans antialiased">
         <x-banner />
 
-        <div class="min-h-screen bg-gray-800 text-gray-200 h-[500vh]">
+        <div class="min-h-screen bg-gray-100 text-gray-950">
             @livewire('public-nav')
             <main class="">
                 {{ $slot }}
